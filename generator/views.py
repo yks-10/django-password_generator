@@ -21,6 +21,3 @@ def password(request):
     return render(request,'generator/passwordre.html',{'password':thepassword})
 def about(request):
     return render(request,'generator/about.html')
-def divya(request):
-    return HttpResponse('<h1>Divya </h1> <h2>Prabha karan </h2> <h3>jeevesh</h3>')
-
